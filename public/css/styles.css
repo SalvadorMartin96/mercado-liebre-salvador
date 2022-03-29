@@ -1,0 +1,516 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+
+header{
+    background-color: #EAC926;
+    
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    width:50%;
+    padding-left:15px;
+    padding-top:10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;    
+}
+
+.barranav {
+    display: none;
+}
+
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+.boxfooter {
+    display:grid;
+}
+
+footer {
+    text-align: center;
+
+}
+
+#icono-tarjeta, #icono-regalo, #icono-seguridad {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+/* LOGIN */
+
+.login {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.usuariologin {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;
+}
+
+.passlogin {
+    margin-top: 10px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;
+}
+
+.botonlogin {
+    margin-top: 10px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color:#0044AA;
+    border-style:none;
+    color:#FFF;
+    font-size: 16px;  
+}
+
+.botonlogin:hover {
+    background-color: #0022AA;
+}
+
+/* REGISTER */
+
+.register {
+    display:flex;
+    justify-content: center;
+    width: 100%;    
+}
+
+.nombrereg {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;  
+}
+
+.usuarioreg {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;  
+}
+
+.titfechareg {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fechanacreg {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;  
+}
+.titperreg {
+    font-size:16px;
+    font-weight:bold;
+    
+}
+
+.perfilreg {
+    display:inline-flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.compradorreg {
+    margin-left:15px;
+}
+
+.bcreg {
+    margin-left: 20px;
+}
+
+.vendedorreg {
+    margin-left: 15px;
+}
+
+.interesesreg {
+    
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.electroreg {
+    margin-left: 10px;
+}
+
+.titelec {
+    margin-left:15px;
+}
+
+.modareg {
+    margin-left: 10px;
+}
+
+.titmoda {
+    margin-left:15px;
+}
+
+.hogarreg {
+    margin-left: 10px;
+}
+
+.tithogar {
+    margin-left:15px;
+}
+
+.jugueteriareg {
+    margin-left: 10px;
+}
+
+.titjug {
+    margin-left:15px;
+}
+
+.vidasanareg {
+    margin-left: 10px;
+    margin-bottom:20px;
+}
+
+.titvid {
+    margin-left:15px;
+    
+}
+
+.picturereg {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputpic {
+    margin-top:10px;
+    width: 50vw;
+    margin-bottom: 10px;
+}
+
+.passreg {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;  
+}
+
+.newpassreg {
+    margin-top: 20px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;  
+}
+
+.resetreg {
+    margin-top: 10px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color:#0044AA;
+    border-style:none;
+    color:#FFF;
+    font-size: 16px;   
+}
+
+.sendreg {
+    margin-top: 10px;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color:#0044AA;
+    border-style:none;
+    color:#FFF;
+    font-size: 16px; 
+}
+
+
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+        color:white
+    }
+
+    main section article .description:hover{
+        color:#666;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    
+.barranav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.barranav li{
+    margin: 30px 5px 10px 5px;
+    padding-right: 5px;
+}
+
+.barranav ul {
+    display: flex;
+}
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+
+    .burger-menu {
+        display:none;
+        
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+
+.top-header{
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+.barranav li{
+        margin: 30px 5px 10px 5px;
+        padding-right: 40px;
+    }
+    
+.listaDos li i {
+        padding-left: 5px;
+    }
+
+/* LOGIN */
+
+.login {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.usuariologin {
+    margin-top: 20px;
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;
+}
+
+.passlogin {
+    margin-top: 10px;
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style:none;
+    font-size: 16px;
+}
+
+.botonlogin {
+    margin-top: 10px;
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color:#0044AA;
+    border-style:none;
+    color:#FFF;
+    font-size: 16px;  
+}    
+
+}
+
